@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-21T11:17:29 IST" name="DemoBlaze Test Suite" finished-at="2025-01-21T11:18:43 IST" duration-ms="74686">
+    <groups>
+      <group name="Purchase">
+        <method signature="PurchaseTest.VerifyThePresenceOfTheUserDetailsSections()[pri:2, instance:MiniProject1.PurchaseTest@fbd1f6]" name="VerifyThePresenceOfTheUserDetailsSections" class="MiniProject1.PurchaseTest"/>
+        <method signature="PurchaseTest.testPurchaseByEnteringValidDetails()[pri:3, instance:MiniProject1.PurchaseTest@fbd1f6]" name="testPurchaseByEnteringValidDetails" class="MiniProject1.PurchaseTest"/>
+        <method signature="PurchaseTest.testRedirectionToPlaceOrderWindow()[pri:0, instance:MiniProject1.PurchaseTest@fbd1f6]" name="testRedirectionToPlaceOrderWindow" class="MiniProject1.PurchaseTest"/>
+        <method signature="PurchaseTest.verifySuccessfullPurchase()[pri:4, instance:MiniProject1.PurchaseTest@fbd1f6]" name="verifySuccessfullPurchase" class="MiniProject1.PurchaseTest"/>
+      </group> <!-- Purchase -->
+      <group name="Logout">
+        <method signature="LogoutTest.testLogoutButtonVisibility()[pri:0, instance:MiniProject1.LogoutTest@279fedbd]" name="testLogoutButtonVisibility" class="MiniProject1.LogoutTest"/>
+        <method signature="LogoutTest.testLogoutRedirectionToHomePage()[pri:0, instance:MiniProject1.LogoutTest@279fedbd]" name="testLogoutRedirectionToHomePage" class="MiniProject1.LogoutTest"/>
+      </group> <!-- Logout -->
+      <group name="Product">
+        <method signature="ProductDetailsTest.testAddToCart()[pri:3, instance:MiniProject1.ProductDetailsTest@7c6908d7]" name="testAddToCart" class="MiniProject1.ProductDetailsTest"/>
+        <method signature="ProductDetailsTest.testCartCount()[pri:4, instance:MiniProject1.ProductDetailsTest@7c6908d7]" name="testCartCount" class="MiniProject1.ProductDetailsTest"/>
+        <method signature="ProductDetailsTest.testRedirectionToProductDetailsPage()[pri:1, instance:MiniProject1.ProductDetailsTest@7c6908d7]" name="testRedirectionToProductDetailsPage" class="MiniProject1.ProductDetailsTest"/>
+        <method signature="ProductDetailsTest.verifyProductDetailsPage()[pri:2, instance:MiniProject1.ProductDetailsTest@7c6908d7]" name="verifyProductDetailsPage" class="MiniProject1.ProductDetailsTest"/>
+      </group> <!-- Product -->
+      <group name="Login">
+        <method signature="LoginTest.testLoginButtonClickable()[pri:0, instance:MiniProject1.LoginTest@7eac9008]" name="testLoginButtonClickable" class="MiniProject1.LoginTest"/>
+        <method signature="LoginTest.testLoginButtonVisibility()[pri:0, instance:MiniProject1.LoginTest@7eac9008]" name="testLoginButtonVisibility" class="MiniProject1.LoginTest"/>
+        <method signature="LoginTest.testLoginWithValidCredentials()[pri:0, instance:MiniProject1.LoginTest@7eac9008]" name="testLoginWithValidCredentials" class="MiniProject1.LoginTest"/>
+      </group> <!-- Login -->
+      <group name="signUp">
+        <method signature="SignUpTest.testSignUpButtonClickable()[pri:0, instance:MiniProject1.SignUpTest@51399530]" name="testSignUpButtonClickable" class="MiniProject1.SignUpTest"/>
+        <method signature="SignUpTest.testSignUpButtonModalVisible()[pri:0, instance:MiniProject1.SignUpTest@51399530]" name="testSignUpButtonModalVisible" class="MiniProject1.SignUpTest"/>
+        <method signature="SignUpTest.testSignUpButtonVisibility()[pri:0, instance:MiniProject1.SignUpTest@51399530]" name="testSignUpButtonVisibility" class="MiniProject1.SignUpTest"/>
+      </group> <!-- signUp -->
+      <group name="Cart">
+        <method signature="CartTest.testDeleteProductFromCart()[pri:2, instance:MiniProject1.CartTest@26794848]" name="testDeleteProductFromCart" class="MiniProject1.CartTest"/>
+        <method signature="CartTest.testTotalPriceCalculationAfterModification()[pri:0, instance:MiniProject1.CartTest@26794848]" name="testTotalPriceCalculationAfterModification" class="MiniProject1.CartTest"/>
+      </group> <!-- Cart -->
+    </groups>
+    <test started-at="2025-01-21T11:17:29 IST" name="SignUp Functionality" finished-at="2025-01-21T11:17:33 IST" duration-ms="4184">
+      <class name="MiniProject1.SignUpTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MiniProject1.SignUpTest@51399530]" started-at="2025-01-21T11:17:29 IST" name="setUp" finished-at="2025-01-21T11:17:32 IST" duration-ms="3281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSignUpButtonClickable()[pri:0, instance:MiniProject1.SignUpTest@51399530]" started-at="2025-01-21T11:17:32 IST" name="testSignUpButtonClickable" finished-at="2025-01-21T11:17:32 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpButtonClickable -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.SignUpTest@51399530]" started-at="2025-01-21T11:17:32 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:17:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignUpButtonClickable status=SUCCESS method=SignUpTest.testSignUpButtonClickable()[pri:0, instance:MiniProject1.SignUpTest@51399530] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="testSignUpButtonModalVisible()[pri:0, instance:MiniProject1.SignUpTest@51399530]" started-at="2025-01-21T11:17:32 IST" name="testSignUpButtonModalVisible" finished-at="2025-01-21T11:17:33 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpButtonModalVisible -->
+        <test-method signature="testSignUpButtonVisibility()[pri:0, instance:MiniProject1.SignUpTest@51399530]" started-at="2025-01-21T11:17:33 IST" name="testSignUpButtonVisibility" finished-at="2025-01-21T11:17:33 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpButtonVisibility -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.SignUpTest@51399530]" started-at="2025-01-21T11:17:33 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:17:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignUpButtonModalVisible status=SUCCESS method=SignUpTest.testSignUpButtonModalVisible()[pri:0, instance:MiniProject1.SignUpTest@51399530] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.SignUpTest@51399530]" started-at="2025-01-21T11:17:33 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:17:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignUpButtonVisibility status=SUCCESS method=SignUpTest.testSignUpButtonVisibility()[pri:0, instance:MiniProject1.SignUpTest@51399530] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MiniProject1.SignUpTest@51399530]" started-at="2025-01-21T11:17:33 IST" name="tearDown" finished-at="2025-01-21T11:17:33 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MiniProject1.SignUpTest -->
+    </test> <!-- SignUp Functionality -->
+    <test started-at="2025-01-21T11:17:33 IST" name="Login Functionality" finished-at="2025-01-21T11:17:38 IST" duration-ms="5353">
+      <class name="MiniProject1.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MiniProject1.LoginTest@7eac9008]" started-at="2025-01-21T11:17:33 IST" name="setUp" finished-at="2025-01-21T11:17:35 IST" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginButtonClickable()[pri:0, instance:MiniProject1.LoginTest@7eac9008]" started-at="2025-01-21T11:17:35 IST" name="testLoginButtonClickable" finished-at="2025-01-21T11:17:35 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonClickable -->
+        <test-method signature="testLoginButtonVisibility()[pri:0, instance:MiniProject1.LoginTest@7eac9008]" started-at="2025-01-21T11:17:35 IST" name="testLoginButtonVisibility" finished-at="2025-01-21T11:17:35 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonVisibility -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.LoginTest@7eac9008]" started-at="2025-01-21T11:17:35 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:17:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginButtonClickable status=SUCCESS method=LoginTest.testLoginButtonClickable()[pri:0, instance:MiniProject1.LoginTest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.LoginTest@7eac9008]" started-at="2025-01-21T11:17:35 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:17:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginButtonVisibility status=SUCCESS method=LoginTest.testLoginButtonVisibility()[pri:0, instance:MiniProject1.LoginTest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:MiniProject1.LoginTest@7eac9008]" started-at="2025-01-21T11:17:35 IST" name="testLoginWithValidCredentials" finished-at="2025-01-21T11:17:38 IST" duration-ms="2955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.LoginTest@7eac9008]" started-at="2025-01-21T11:17:38 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:17:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithValidCredentials status=SUCCESS method=LoginTest.testLoginWithValidCredentials()[pri:0, instance:MiniProject1.LoginTest@7eac9008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MiniProject1.LoginTest@7eac9008]" started-at="2025-01-21T11:17:38 IST" name="tearDown" finished-at="2025-01-21T11:17:38 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MiniProject1.LoginTest -->
+    </test> <!-- Login Functionality -->
+    <test started-at="2025-01-21T11:17:38 IST" name="Product Functionality" finished-at="2025-01-21T11:17:52 IST" duration-ms="13153">
+      <class name="MiniProject1.ProductDetailsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MiniProject1.ProductDetailsTest@7c6908d7]" started-at="2025-01-21T11:17:38 IST" name="setUp" finished-at="2025-01-21T11:17:40 IST" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRedirectionToProductDetailsPage()[pri:1, instance:MiniProject1.ProductDetailsTest@7c6908d7]" started-at="2025-01-21T11:17:40 IST" name="testRedirectionToProductDetailsPage" finished-at="2025-01-21T11:17:44 IST" duration-ms="3882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedirectionToProductDetailsPage -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.ProductDetailsTest@7c6908d7]" started-at="2025-01-21T11:17:44 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:17:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRedirectionToProductDetailsPage status=SUCCESS method=ProductDetailsTest.testRedirectionToProductDetailsPage()[pri:1, instance:MiniProject1.ProductDetailsTest@7c6908d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="verifyProductDetailsPage()[pri:2, instance:MiniProject1.ProductDetailsTest@7c6908d7]" started-at="2025-01-21T11:17:44 IST" name="verifyProductDetailsPage" finished-at="2025-01-21T11:17:44 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetailsPage -->
+        <test-method signature="testAddToCart()[pri:3, instance:MiniProject1.ProductDetailsTest@7c6908d7]" started-at="2025-01-21T11:17:44 IST" name="testAddToCart" finished-at="2025-01-21T11:17:46 IST" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.ProductDetailsTest@7c6908d7]" started-at="2025-01-21T11:17:44 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:17:44 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductDetailsPage status=SUCCESS method=ProductDetailsTest.verifyProductDetailsPage()[pri:2, instance:MiniProject1.ProductDetailsTest@7c6908d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.ProductDetailsTest@7c6908d7]" started-at="2025-01-21T11:17:46 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:17:46 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddToCart status=SUCCESS method=ProductDetailsTest.testAddToCart()[pri:3, instance:MiniProject1.ProductDetailsTest@7c6908d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="testCartCount()[pri:4, instance:MiniProject1.ProductDetailsTest@7c6908d7]" started-at="2025-01-21T11:17:46 IST" name="testCartCount" finished-at="2025-01-21T11:17:51 IST" duration-ms="4097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartCount -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.ProductDetailsTest@7c6908d7]" started-at="2025-01-21T11:17:51 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:17:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCartCount status=SUCCESS method=ProductDetailsTest.testCartCount()[pri:4, instance:MiniProject1.ProductDetailsTest@7c6908d7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MiniProject1.ProductDetailsTest@7c6908d7]" started-at="2025-01-21T11:17:51 IST" name="tearDown" finished-at="2025-01-21T11:17:52 IST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MiniProject1.ProductDetailsTest -->
+    </test> <!-- Product Functionality -->
+    <test started-at="2025-01-21T11:17:52 IST" name="Cart Functionality" finished-at="2025-01-21T11:18:16 IST" duration-ms="24850">
+      <class name="MiniProject1.CartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MiniProject1.CartTest@26794848]" started-at="2025-01-21T11:17:52 IST" name="setUp" finished-at="2025-01-21T11:17:54 IST" duration-ms="2662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTotalPriceCalculationAfterModification()[pri:0, instance:MiniProject1.CartTest@26794848]" started-at="2025-01-21T11:17:54 IST" name="testTotalPriceCalculationAfterModification" finished-at="2025-01-21T11:18:10 IST" duration-ms="16146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalPriceCalculationAfterModification -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.CartTest@26794848]" started-at="2025-01-21T11:18:10 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:18:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTotalPriceCalculationAfterModification status=SUCCESS method=CartTest.testTotalPriceCalculationAfterModification()[pri:0, instance:MiniProject1.CartTest@26794848] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="testDeleteProductFromCart()[pri:2, instance:MiniProject1.CartTest@26794848]" started-at="2025-01-21T11:18:10 IST" name="testDeleteProductFromCart" finished-at="2025-01-21T11:18:16 IST" duration-ms="5866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MiniProject1.CartTest@26794848]" started-at="2025-01-21T11:18:16 IST" name="tearDown" finished-at="2025-01-21T11:18:16 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.CartTest@26794848]" started-at="2025-01-21T11:18:16 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:18:16 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteProductFromCart status=SUCCESS method=CartTest.testDeleteProductFromCart()[pri:2, instance:MiniProject1.CartTest@26794848] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- MiniProject1.CartTest -->
+    </test> <!-- Cart Functionality -->
+    <test started-at="2025-01-21T11:18:16 IST" name="Purchase Functionality" finished-at="2025-01-21T11:18:32 IST" duration-ms="15742">
+      <class name="MiniProject1.PurchaseTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MiniProject1.PurchaseTest@fbd1f6]" started-at="2025-01-21T11:18:16 IST" name="setUp" finished-at="2025-01-21T11:18:19 IST" duration-ms="2294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testRedirectionToPlaceOrderWindow()[pri:0, instance:MiniProject1.PurchaseTest@fbd1f6]" started-at="2025-01-21T11:18:19 IST" name="testRedirectionToPlaceOrderWindow" finished-at="2025-01-21T11:18:26 IST" duration-ms="7790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRedirectionToPlaceOrderWindow -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.PurchaseTest@fbd1f6]" started-at="2025-01-21T11:18:26 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:18:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRedirectionToPlaceOrderWindow status=SUCCESS method=PurchaseTest.testRedirectionToPlaceOrderWindow()[pri:0, instance:MiniProject1.PurchaseTest@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="VerifyThePresenceOfTheUserDetailsSections()[pri:2, instance:MiniProject1.PurchaseTest@fbd1f6]" started-at="2025-01-21T11:18:26 IST" name="VerifyThePresenceOfTheUserDetailsSections" finished-at="2025-01-21T11:18:29 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyThePresenceOfTheUserDetailsSections -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.PurchaseTest@fbd1f6]" started-at="2025-01-21T11:18:29 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:18:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyThePresenceOfTheUserDetailsSections status=SUCCESS method=PurchaseTest.VerifyThePresenceOfTheUserDetailsSections()[pri:2, instance:MiniProject1.PurchaseTest@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="testPurchaseByEnteringValidDetails()[pri:3, instance:MiniProject1.PurchaseTest@fbd1f6]" started-at="2025-01-21T11:18:29 IST" name="testPurchaseByEnteringValidDetails" finished-at="2025-01-21T11:18:29 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPurchaseByEnteringValidDetails -->
+        <test-method signature="verifySuccessfullPurchase()[pri:4, instance:MiniProject1.PurchaseTest@fbd1f6]" started-at="2025-01-21T11:18:29 IST" name="verifySuccessfullPurchase" finished-at="2025-01-21T11:18:31 IST" duration-ms="2078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfullPurchase -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.PurchaseTest@fbd1f6]" started-at="2025-01-21T11:18:29 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:18:29 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPurchaseByEnteringValidDetails status=SUCCESS method=PurchaseTest.testPurchaseByEnteringValidDetails()[pri:3, instance:MiniProject1.PurchaseTest@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MiniProject1.PurchaseTest@fbd1f6]" started-at="2025-01-21T11:18:31 IST" name="tearDown" finished-at="2025-01-21T11:18:32 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.PurchaseTest@fbd1f6]" started-at="2025-01-21T11:18:31 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:18:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySuccessfullPurchase status=SUCCESS method=PurchaseTest.verifySuccessfullPurchase()[pri:4, instance:MiniProject1.PurchaseTest@fbd1f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+      </class> <!-- MiniProject1.PurchaseTest -->
+    </test> <!-- Purchase Functionality -->
+    <test started-at="2025-01-21T11:18:32 IST" name="Logout Functionality" finished-at="2025-01-21T11:18:43 IST" duration-ms="11344">
+      <class name="MiniProject1.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MiniProject1.LogoutTest@279fedbd]" started-at="2025-01-21T11:18:32 IST" name="setUp" finished-at="2025-01-21T11:18:35 IST" duration-ms="2792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogoutButtonVisibility()[pri:0, instance:MiniProject1.LogoutTest@279fedbd]" started-at="2025-01-21T11:18:35 IST" name="testLogoutButtonVisibility" finished-at="2025-01-21T11:18:39 IST" duration-ms="3738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutButtonVisibility -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.LogoutTest@279fedbd]" started-at="2025-01-21T11:18:39 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:18:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogoutButtonVisibility status=SUCCESS method=LogoutTest.testLogoutButtonVisibility()[pri:0, instance:MiniProject1.LogoutTest@279fedbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method signature="testLogoutRedirectionToHomePage()[pri:0, instance:MiniProject1.LogoutTest@279fedbd]" started-at="2025-01-21T11:18:39 IST" name="testLogoutRedirectionToHomePage" finished-at="2025-01-21T11:18:43 IST" depends-on-methods="MiniProject1.LogoutTest.testLogoutButtonVisibility" duration-ms="4652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutRedirectionToHomePage -->
+        <test-method is-config="true" signature="takeScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:MiniProject1.LogoutTest@279fedbd]" started-at="2025-01-21T11:18:43 IST" name="takeScreenshotOnFailure" finished-at="2025-01-21T11:18:43 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogoutRedirectionToHomePage status=SUCCESS method=LogoutTest.testLogoutRedirectionToHomePage()[pri:0, instance:MiniProject1.LogoutTest@279fedbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotOnFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MiniProject1.LogoutTest@279fedbd]" started-at="2025-01-21T11:18:43 IST" name="tearDown" finished-at="2025-01-21T11:18:43 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MiniProject1.LogoutTest -->
+    </test> <!-- Logout Functionality -->
+  </suite> <!-- DemoBlaze Test Suite -->
+</testng-results>

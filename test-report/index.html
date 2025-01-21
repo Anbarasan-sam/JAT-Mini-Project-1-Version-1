@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DemoBlaze_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">DemoBlaze Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DemoBlaze_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Anbarasan_SAM\eclipse-workspace\miniProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DemoBlaze_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DemoBlaze_Test_Suite" class="navigator-link ">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DemoBlaze_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DemoBlaze_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DemoBlaze_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DemoBlaze_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DemoBlaze_Test_Suite" class="hide-methods passed suite-DemoBlaze_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-DemoBlaze_Test_Suite -->
+                      <a href="#" panel-name="suite-DemoBlaze_Test_Suite" class="show-methods passed suite-DemoBlaze_Test_Suite"> (show)</a> <!-- show-methods passed suite-DemoBlaze_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-DemoBlaze_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.PurchaseTest" class="method navigator-link" hash-for-method="VerifyThePresenceOfTheUserDetailsSections">VerifyThePresenceOfTheUserDetailsSections</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.ProductDetailsTest" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.ProductDetailsTest" class="method navigator-link" hash-for-method="testCartCount">testCartCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.CartTest" class="method navigator-link" hash-for-method="testDeleteProductFromCart">testDeleteProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.LoginTest" class="method navigator-link" hash-for-method="testLoginButtonClickable">testLoginButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.LoginTest" class="method navigator-link" hash-for-method="testLoginButtonVisibility">testLoginButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.LoginTest" class="method navigator-link" hash-for-method="testLoginWithValidCredentials">testLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.LogoutTest" class="method navigator-link" hash-for-method="testLogoutButtonVisibility">testLogoutButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.LogoutTest" class="method navigator-link" hash-for-method="testLogoutRedirectionToHomePage">testLogoutRedirectionToHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.PurchaseTest" class="method navigator-link" hash-for-method="testPurchaseByEnteringValidDetails">testPurchaseByEnteringValidDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.PurchaseTest" class="method navigator-link" hash-for-method="testRedirectionToPlaceOrderWindow">testRedirectionToPlaceOrderWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.ProductDetailsTest" class="method navigator-link" hash-for-method="testRedirectionToProductDetailsPage">testRedirectionToProductDetailsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.SignUpTest" class="method navigator-link" hash-for-method="testSignUpButtonClickable">testSignUpButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.SignUpTest" class="method navigator-link" hash-for-method="testSignUpButtonModalVisible">testSignUpButtonModalVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.SignUpTest" class="method navigator-link" hash-for-method="testSignUpButtonVisibility">testSignUpButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.CartTest" class="method navigator-link" hash-for-method="testTotalPriceCalculationAfterModification">testTotalPriceCalculationAfterModification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.ProductDetailsTest" class="method navigator-link" hash-for-method="verifyProductDetailsPage">verifyProductDetailsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Test_Suite" title="MiniProject1.PurchaseTest" class="method navigator-link" hash-for-method="verifySuccessfullPurchase">verifySuccessfullPurchase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DemoBlaze_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DemoBlaze_Test_Suite" class="panel DemoBlaze_Test_Suite">
+          <div class="suite-DemoBlaze_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MiniProject1.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteProductFromCart">
+                  </a> <!-- testDeleteProductFromCart -->
+                  <span class="method-name">testDeleteProductFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTotalPriceCalculationAfterModification">
+                  </a> <!-- testTotalPriceCalculationAfterModification -->
+                  <span class="method-name">testTotalPriceCalculationAfterModification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Test_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MiniProject1.ProductDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCartCount">
+                  </a> <!-- testCartCount -->
+                  <span class="method-name">testCartCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRedirectionToProductDetailsPage">
+                  </a> <!-- testRedirectionToProductDetailsPage -->
+                  <span class="method-name">testRedirectionToProductDetailsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDetailsPage">
+                  </a> <!-- verifyProductDetailsPage -->
+                  <span class="method-name">verifyProductDetailsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Test_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MiniProject1.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutButtonVisibility">
+                  </a> <!-- testLogoutButtonVisibility -->
+                  <span class="method-name">testLogoutButtonVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutRedirectionToHomePage">
+                  </a> <!-- testLogoutRedirectionToHomePage -->
+                  <span class="method-name">testLogoutRedirectionToHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Test_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MiniProject1.PurchaseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyThePresenceOfTheUserDetailsSections">
+                  </a> <!-- VerifyThePresenceOfTheUserDetailsSections -->
+                  <span class="method-name">VerifyThePresenceOfTheUserDetailsSections</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPurchaseByEnteringValidDetails">
+                  </a> <!-- testPurchaseByEnteringValidDetails -->
+                  <span class="method-name">testPurchaseByEnteringValidDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRedirectionToPlaceOrderWindow">
+                  </a> <!-- testRedirectionToPlaceOrderWindow -->
+                  <span class="method-name">testRedirectionToPlaceOrderWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySuccessfullPurchase">
+                  </a> <!-- verifySuccessfullPurchase -->
+                  <span class="method-name">verifySuccessfullPurchase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Test_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MiniProject1.SignUpTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpButtonClickable">
+                  </a> <!-- testSignUpButtonClickable -->
+                  <span class="method-name">testSignUpButtonClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpButtonModalVisible">
+                  </a> <!-- testSignUpButtonModalVisible -->
+                  <span class="method-name">testSignUpButtonModalVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignUpButtonVisibility">
+                  </a> <!-- testSignUpButtonVisibility -->
+                  <span class="method-name">testSignUpButtonVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Test_Suite-class-passed -->
+          <div class="suite-DemoBlaze_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">MiniProject1.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginButtonClickable">
+                  </a> <!-- testLoginButtonClickable -->
+                  <span class="method-name">testLoginButtonClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginButtonVisibility">
+                  </a> <!-- testLoginButtonVisibility -->
+                  <span class="method-name">testLoginButtonVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginWithValidCredentials">
+                  </a> <!-- testLoginWithValidCredentials -->
+                  <span class="method-name">testLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoBlaze_Test_Suite-class-passed -->
+        </div> <!-- panel DemoBlaze_Test_Suite -->
+        <div panel-name="test-xml-DemoBlaze_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Anbarasan_SAM\eclipse-workspace\miniProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;DemoBlaze Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SignUp Functionality&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;signUp&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MiniProject1.SignUpTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SignUp Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Functionality&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Login&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MiniProject1.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Product Functionality&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Product&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MiniProject1.ProductDetailsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Product Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cart Functionality&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Cart&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MiniProject1.CartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cart Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Purchase Functionality&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Purchase&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MiniProject1.PurchaseTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Purchase Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Logout Functionality&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Logout&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;MiniProject1.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Logout Functionality --&gt;
+&lt;/suite&gt; &lt;!-- DemoBlaze Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DemoBlaze_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DemoBlaze Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SignUp Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Product Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Cart Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Purchase Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Logout Functionality (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DemoBlaze_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DemoBlaze Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Cart</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDeleteProductFromCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testTotalPriceCalculationAfterModification</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginButtonClickable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginButtonVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLoginWithValidCredentials</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Logout</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogoutButtonVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testLogoutRedirectionToHomePage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Product</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCartCount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRedirectionToProductDetailsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductDetailsPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Purchase</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">VerifyThePresenceOfTheUserDetailsSections</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testPurchaseByEnteringValidDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testRedirectionToPlaceOrderWindow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySuccessfullPurchase</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">signUp</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSignUpButtonClickable</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSignUpButtonModalVisible</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testSignUpButtonVisibility</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DemoBlaze_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DemoBlaze Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DemoBlaze_Test_Suite');
+function tableData_DemoBlaze_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testTotalPriceCalculationAfterModification')
+data.setCell(0, 2, 'MiniProject1.CartTest')
+data.setCell(0, 3, 16146);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRedirectionToPlaceOrderWindow')
+data.setCell(1, 2, 'MiniProject1.PurchaseTest')
+data.setCell(1, 3, 7790);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDeleteProductFromCart')
+data.setCell(2, 2, 'MiniProject1.CartTest')
+data.setCell(2, 3, 5866);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLogoutRedirectionToHomePage')
+data.setCell(3, 2, 'MiniProject1.LogoutTest')
+data.setCell(3, 3, 4652);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCartCount')
+data.setCell(4, 2, 'MiniProject1.ProductDetailsTest')
+data.setCell(4, 3, 4097);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRedirectionToProductDetailsPage')
+data.setCell(5, 2, 'MiniProject1.ProductDetailsTest')
+data.setCell(5, 3, 3882);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLogoutButtonVisibility')
+data.setCell(6, 2, 'MiniProject1.LogoutTest')
+data.setCell(6, 3, 3738);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testLoginWithValidCredentials')
+data.setCell(7, 2, 'MiniProject1.LoginTest')
+data.setCell(7, 3, 2955);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAddToCart')
+data.setCell(8, 2, 'MiniProject1.ProductDetailsTest')
+data.setCell(8, 3, 2096);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifySuccessfullPurchase')
+data.setCell(9, 2, 'MiniProject1.PurchaseTest')
+data.setCell(9, 3, 2078);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyThePresenceOfTheUserDetailsSections')
+data.setCell(10, 2, 'MiniProject1.PurchaseTest')
+data.setCell(10, 3, 2042);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testSignUpButtonModalVisible')
+data.setCell(11, 2, 'MiniProject1.SignUpTest')
+data.setCell(11, 3, 684);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testPurchaseByEnteringValidDetails')
+data.setCell(12, 2, 'MiniProject1.PurchaseTest')
+data.setCell(12, 3, 480);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyProductDetailsPage')
+data.setCell(13, 2, 'MiniProject1.ProductDetailsTest')
+data.setCell(13, 3, 91);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testLoginButtonClickable')
+data.setCell(14, 2, 'MiniProject1.LoginTest')
+data.setCell(14, 3, 85);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSignUpButtonClickable')
+data.setCell(15, 2, 'MiniProject1.SignUpTest')
+data.setCell(15, 3, 26);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testLoginButtonVisibility')
+data.setCell(16, 2, 'MiniProject1.LoginTest')
+data.setCell(16, 3, 20);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testSignUpButtonVisibility')
+data.setCell(17, 2, 'MiniProject1.SignUpTest')
+data.setCell(17, 3, 19);
+window.suiteTableData['DemoBlaze_Test_Suite']= { tableData: data, tableDiv: 'times-div-DemoBlaze_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <div id="times-div-DemoBlaze_Test_Suite">
+              </div> <!-- times-div-DemoBlaze_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DemoBlaze_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DemoBlaze Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DemoBlaze_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DemoBlaze_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">MiniProject1.SignUpTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testSignUpButtonClickable</span>
+                <span class="method-start">3294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testSignUpButtonClickable status=SUCCESS method=SignUpTest.testSignUpButtonClickabl...)</span>
+                <span class="method-start">3322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testSignUpButtonModalVisible</span>
+                <span class="method-start">3324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSignUpButtonVisibility</span>
+                <span class="method-start">4009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testSignUpButtonModalVisible status=SUCCESS method=SignUpTest.testSignUpButtonModal...)</span>
+                <span class="method-start">4009 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testSignUpButtonVisibility status=SUCCESS method=SignUpTest.testSignUpButtonVisibil...)</span>
+                <span class="method-start">4028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4030 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MiniProject1.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4219 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testLoginButtonClickable</span>
+                <span class="method-start">6363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginButtonVisibility</span>
+                <span class="method-start">6449 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testLoginButtonClickable status=SUCCESS method=LoginTest.testLoginButtonClickable()...)</span>
+                <span class="method-start">6449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testLoginButtonVisibility status=SUCCESS method=LoginTest.testLoginButtonVisibility...)</span>
+                <span class="method-start">6470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLoginWithValidCredentials</span>
+                <span class="method-start">6471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testLoginWithValidCredentials status=SUCCESS method=LoginTest.testLoginWithValidCre...)</span>
+                <span class="method-start">9426 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9427 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MiniProject1.ProductDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9577 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testRedirectionToProductDetailsPage</span>
+                <span class="method-start">11576 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testRedirectionToProductDetailsPage status=SUCCESS method=ProductDetailsTest.testRe...)</span>
+                <span class="method-start">15459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDetailsPage</span>
+                <span class="method-start">15460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">15553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=verifyProductDetailsPage status=SUCCESS method=ProductDetailsTest.verifyProductDeta...)</span>
+                <span class="method-start">15553 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testAddToCart status=SUCCESS method=ProductDetailsTest.testAddToCart()[pri:3, insta...)</span>
+                <span class="method-start">17649 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testCartCount</span>
+                <span class="method-start">17650 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testCartCount status=SUCCESS method=ProductDetailsTest.testCartCount()[pri:4, insta...)</span>
+                <span class="method-start">21747 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21747 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MiniProject1.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22738 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testTotalPriceCalculationAfterModification</span>
+                <span class="method-start">25400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testTotalPriceCalculationAfterModification status=SUCCESS method=CartTest.testTotal...)</span>
+                <span class="method-start">41546 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDeleteProductFromCart</span>
+                <span class="method-start">41546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47413 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testDeleteProductFromCart status=SUCCESS method=CartTest.testDeleteProductFromCart(...)</span>
+                <span class="method-start">47413 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MiniProject1.PurchaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47594 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testRedirectionToPlaceOrderWindow</span>
+                <span class="method-start">49888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testRedirectionToPlaceOrderWindow status=SUCCESS method=PurchaseTest.testRedirectio...)</span>
+                <span class="method-start">57678 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">VerifyThePresenceOfTheUserDetailsSections</span>
+                <span class="method-start">57679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=VerifyThePresenceOfTheUserDetailsSections status=SUCCESS method=PurchaseTest.Verify...)</span>
+                <span class="method-start">59721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testPurchaseByEnteringValidDetails</span>
+                <span class="method-start">59722 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySuccessfullPurchase</span>
+                <span class="method-start">60202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testPurchaseByEnteringValidDetails status=SUCCESS method=PurchaseTest.testPurchaseB...)</span>
+                <span class="method-start">60202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62280 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=verifySuccessfullPurchase status=SUCCESS method=PurchaseTest.verifySuccessfullPurch...)</span>
+                <span class="method-start">62280 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">MiniProject1.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63339 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testLogoutButtonVisibility</span>
+                <span class="method-start">66133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testLogoutButtonVisibility status=SUCCESS method=LogoutTest.testLogoutButtonVisibil...)</span>
+                <span class="method-start">69872 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testLogoutRedirectionToHomePage</span>
+                <span class="method-start">69873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">takeScreenshotOnFailure([TestResult name=testLogoutRedirectionToHomePage status=SUCCESS method=LogoutTest.testLogoutRedirect...)</span>
+                <span class="method-start">74525 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74525 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
