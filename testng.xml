@@ -1,0 +1,77 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoBlaze Test Suite" parallel="false"> 
+
+    <!-- SignUp Tests -->
+    <test name="SignUp Functionality">
+    	<groups>
+            <run>
+                <include name="signUp" />  
+            </run>
+        </groups>
+        <classes>
+            <class name="MiniProject1.SignUpTest" />
+        </classes>
+    </test>
+    
+ <!-- Login Tests -->
+    <test name="Login Functionality">
+        <groups>
+            <run>
+                <include name="Login" />
+            </run>
+        </groups>
+        <classes>
+            <class name="MiniProject1.LoginTest" />
+        </classes>
+    </test>
+
+    <!-- Product Tests -->
+    <test name="Product Functionality">
+        <groups>
+            <run>
+                <include name="Product" />
+            </run>
+        </groups>
+        <classes>
+            <class name="MiniProject1.ProductDetailsTest" />
+        </classes>
+    </test>
+
+    <!-- Cart Tests -->
+    <test name="Cart Functionality">
+        <groups>
+            <run>
+                <include name="Cart" />
+            </run>
+        </groups>
+        <classes>
+            <class name="MiniProject1.CartTest" />
+        </classes>
+    </test>
+
+    <!-- Purchase Tests -->
+    <test name="Purchase Functionality">
+        <groups>
+            <run>
+                <include name="Purchase" />
+            </run>
+        </groups>
+        <classes>
+            <class name="MiniProject1.PurchaseTest" />
+        </classes>
+    </test>
+
+    <!-- Logout Tests -->
+    <test name="Logout Functionality">
+        <groups>
+            <run>
+                <include name="Logout" />
+            </run>
+        </groups>
+        <classes>
+            <class name="MiniProject1.LogoutTest" />
+        </classes>
+    </test>
+
+
+</suite>
